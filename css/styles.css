@@ -173,14 +173,12 @@ img {
   width: 696px;
 
   margin-bottom: 30px;
-  margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .hero-button {
   display: inline-block;
-  margin-bottom: 200px;
 }
 
 /* Переваги */
@@ -208,6 +206,10 @@ img {
 }
 
 /* Діяльність */
+
+.activity {
+  padding-top: 0;
+}
 
 .activity-title {
   font-size: 36px;
@@ -262,8 +264,8 @@ img {
   line-height: calc(19 / 16);
   text-align: center;
 
-  margin-top: 30px;
-  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .team-position {
@@ -272,7 +274,7 @@ img {
   color: var(--secondary-text-color);
   text-align: center;
 
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 /* Футер */
@@ -329,8 +331,8 @@ img {
   display: inline-block;
 }
 
-.filter-list-item {
-  margin-bottom: 56px;
+.filter-list {
+  margin-bottom: 50px;
 }
 
 .filter-list-item:not(:last-child) {
@@ -391,7 +393,9 @@ img {
 .content-border {
   width: 370px;
 
-  border: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .visually-hidden {
